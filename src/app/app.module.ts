@@ -3,17 +3,15 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-import { ContactUSComponent } from './contact-us/contact-us.component';
-import { HowItworkComponent } from './how-itwork/how-itwork.component';
-import { NavComponent } from './nav/nav.component';
+import { SideNavComponent } from './side-nav/side-nav.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    ContactUSComponent,
-    HowItworkComponent,
-    NavComponent
+    SideNavComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule
